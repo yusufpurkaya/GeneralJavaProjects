@@ -1,0 +1,16 @@
+BİR KUTUPHANE PROJESİ create edin
+bu proje ayrintili bir şekilde bir kütüphanecinin işini kolaylaştıracak ve
+
+1- kitap,yazar,yayinevi icin ayrintili bilgilerin oldugu 3 adet farkli private class larda field lar olusturun
+2- kisiye bazi islemleri yapma hakkı tanıyın bu islemler için  interface de methodlar olusturun
+   mesela ,ekleme,silme, güncelleme, listeleme  methodlari olabilir.
+3- sonra bu interface in child i olan bir class da bu methodlari override ederek method body lerini olusturun
+   yani bu child class sadece methodlari create edeceğimiz bir alan işlevi görecek
+4-ve son bir class olusturup kullaniciya ne yapmak istediğini sorup yapmak istediği isleme göre kullanıcıyı yönlendiriniz
+
+toplam;
+ 1 adet interface
+ 1 adet bu interface in child i olan methodlari create ettiğimiz class
+ 3 adet encapsule edilmiş class, field lari olusturduk buralarda
+ 1 adet de kullanici tercihini aldığımız runner class(main içinde işlem yaptığımız)
+
